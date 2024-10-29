@@ -1085,28 +1085,33 @@ section,
   position: relative;
 }
 
-.menu .menu-more  {
+.menu .menu-more {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* Optional if you want to control vertical centering */
+  width: 100%;
   text-align: center;
-  font-weight: 500;
-  font-size: 30px;
-  margin-top: 40px;
-  transform: scale(.8,1) !important;
-  letter-spacing: 1px;
   font-weight: 700;
-  padding: 8px 20px;
-  margin: 0;
-  background: 
-color-mix(in srgb, var(--accent-color), transparent 90%);
-  color: var(--accent-color);
-  display: inline-block;
+  font-size: 30px;
+  transform: scale(0.8, 1);
+  letter-spacing: 1px;
   text-transform: uppercase;
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 90%);
   border-radius: 50px;
   font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
 }
+
+.menu .menu-more:hover {
+  transform: scale(1);
+  background-color: var(--accent-color);
+  color: #fff; /* Adjust to the color you want on hover */
+}
+
+
 
 .menu .menu-img {
   width: 80px;
@@ -1247,7 +1252,7 @@ color-mix(in srgb, var(--accent-color), transparent 90%);
   }
 
   .specials .nav-link.active {
-    color: var(--accent-color);
+    color: white;
     background: var(--accent-color);
   }
 }
