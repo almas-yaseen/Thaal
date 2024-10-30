@@ -173,23 +173,25 @@
     </section><!-- /About Section -->
 
     <!-- Why Us Section -->
-    <section id="why-us" class="why-us section">
 
       <!-- Section Title -->
       
 <!-- Why Us Section -->
-<section id="why-us" class="why-us section" style="background: url('assets/img/menu/poster.jpg') center center/cover; position: relative;">
+<!-- Why Us Section -->
+<section id="why-us" class="why-us section">
 
-  <!-- Overlay for readability -->
-  <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4);"></div>
-
-  <!-- Section Content -->
-  <div class="container section-title" data-aos="fade-up" style="position: relative; z-index: 1;">
-    <h2>Why Us</h2>
-    <div><span style="color: white;">Why choose</span> <span class="description-title">Our Restaurant</span></div>
+  <!-- Image at the top -->
+  <div class="container" style="text-align: center; margin-bottom: 20px;">
+    <img src="assets/img/menu/poster.jpg" alt="Restaurant Poster" class="img-fluid" style="border-radius: 8px;">
   </div>
 
-  <div class="container" style="position: relative; z-index: 1;">
+  <!-- Section Content -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Why Us</h2>
+    <div><span>Why choose</span> <span class="description-title">Our Restaurant</span></div>
+  </div>
+
+  <div class="container">
 
     <div class="row gy-4">
 
@@ -224,16 +226,27 @@
 </section><!-- /Why Us Section -->
 
 <style>
-  .why-us .card-item {
-    background-color: rgba(234, 233, 233, 0.9); /* Slightly transparent background */
-    padding: 20px;
+  /* Default size for larger screens */
+  .responsive-image {
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(77, 76, 76, 0.1);
+    width: 65%;
+    height: 400px;
   }
 
-  .why-us h2,
-  .why-us .description-title {
-    color: white;
+  /* Adjustments for tablets */
+  @media (max-width: 768px) {
+    .responsive-image {
+      width: 100%; /* Slightly larger for smaller screens */
+      height: 300px; /* Adjusted height */
+    }
+  }
+
+  /* Adjustments for mobile screens */
+  @media (max-width: 576px) {
+    .responsive-image {
+      width: 100%; /* Full width for smallest screens */
+      height: 250px; /* Adjusted height */
+    }
   }
 </style>
 
