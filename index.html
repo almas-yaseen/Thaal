@@ -176,45 +176,66 @@
     <section id="why-us" class="why-us section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Why Us</h2>
-        <div><span>Why choose</span> <span class="description-title">Our Restaurant</span></div>
-      </div><!-- End Section Title -->
+      
+<!-- Why Us Section -->
+<section id="why-us" class="why-us section" style="background: url('assets/img/menu/poster.jpg') center center/cover; position: relative;">
 
-      <div class="container">
+  <!-- Overlay for readability -->
+  <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.4);"></div>
 
-        <div class="row gy-4">
+  <!-- Section Content -->
+  <div class="container section-title" data-aos="fade-up" style="position: relative; z-index: 1;">
+    <h2>Why Us</h2>
+    <div><span style="color: white;">Why choose</span> <span class="description-title">Our Restaurant</span></div>
+  </div>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-item">
-              <span>01</span>
-              <h4><a href="" class="stretched-link">Exceptional Quality</a></h4>
-              <p>At Thaal Kitchen, we prioritize quality above all. Our ingredients are sourced from trusted suppliers, ensuring that every dish is made with the freshest and finest components available.</p>
-            </div>
-          </div><!-- Card Item -->
+  <div class="container" style="position: relative; z-index: 1;">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-item">
-              <span>02</span>
-              <h4><a href="" class="stretched-link">Welcoming Atmosphere</a></h4>
-              <p>Our restaurants are designed to provide a warm and inviting ambiance, perfect for family gatherings, romantic dinners, or casual meet-ups with friends. Enjoy your meal in a setting that feels like home.
-              </p>
-            </div>
-          </div><!-- Card Item -->
+    <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="card-item">
-              <span>03</span>
-              <h4><a href="" class="stretched-link">Exceptional Customer Service</a></h4>
-              <p>At Thaal Kitchen, we believe that great service is just as important as great food. Our friendly and attentive staff is dedicated to providing an exceptional dining experience from start to finish.</p>
-            </div>
-          </div><!-- Card Item -->
-
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-item">
+          <span>01</span>
+          <h4><a href="" class="stretched-link">Exceptional Quality</a></h4>
+          <p>At Thaal Kitchen, we prioritize quality above all. Our ingredients are sourced from trusted suppliers, ensuring that every dish is made with the freshest and finest components available.</p>
         </div>
+      </div><!-- Card Item -->
 
-      </div>
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-item">
+          <span>02</span>
+          <h4><a href="" class="stretched-link">Welcoming Atmosphere</a></h4>
+          <p>Our restaurants are designed to provide a warm and inviting ambiance, perfect for family gatherings, romantic dinners, or casual meet-ups with friends. Enjoy your meal in a setting that feels like home.</p>
+        </div>
+      </div><!-- Card Item -->
 
-    </section><!-- /Why Us Section -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-item">
+          <span>03</span>
+          <h4><a href="" class="stretched-link">Exceptional Customer Service</a></h4>
+          <p>At Thaal Kitchen, we believe that great service is just as important as great food. Our friendly and attentive staff is dedicated to providing an exceptional dining experience from start to finish.</p>
+        </div>
+      </div><!-- Card Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Why Us Section -->
+
+<style>
+  .why-us .card-item {
+    background-color: rgba(234, 233, 233, 0.9); /* Slightly transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(77, 76, 76, 0.1);
+  }
+
+  .why-us h2,
+  .why-us .description-title {
+    color: white;
+  }
+</style>
 
     <!-- Menu Section -->
     <section id="menu" class="menu section">
@@ -516,6 +537,14 @@
 
           <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
+              <a href="assets/img/menu/poster.jpg" class="glightbox" data-gallery="images-gallery">
+                <img src="assets/img/menu/poster.jpg" alt="" class="img-fluid gallery-img">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-4">
+            <div class="gallery-item">
               <a href="assets/img/events-slider/img2.png" class="glightbox" data-gallery="images-gallery">
                 <img src="assets/img/events-slider/img2.png" alt="" class="img-fluid gallery-img">
               </a>
@@ -538,13 +567,6 @@
             </div>
           </div><!-- End Gallery Item -->
 
-          <div class="col-lg-4 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/gallery/img2.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/img2.jpg" alt="" class="img-fluid gallery-img">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
 
           <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
