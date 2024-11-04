@@ -627,7 +627,7 @@ h6 {
 
 #preloader img {
   width: 200px; /* Adjust based on image size */
-  animation: fadeIn 4s ease-in-out, scaleUp 4s ease-in-out; /* Slower animation */
+  animation: fadeIn 1s ease-in-out, scaleUp 1s ease-in-out; /* Slower animation */
 }
 
 @keyframes fadeOutPreloader {
@@ -646,7 +646,7 @@ h6 {
 }
 
 .hidden {
-  animation: fadeOutPreloader 4s ease forwards; /* Slower fade-out */
+  animation: fadeOutPreloader 1s ease forwards; /* Slower fade-out */
 }
 
 

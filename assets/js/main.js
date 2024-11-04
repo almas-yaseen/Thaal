@@ -67,7 +67,7 @@
 window.addEventListener('load', function() {
   setTimeout(() => {
     document.getElementById('preloader').classList.add('hidden');
-  }, 2000);  // Delays hiding by 2 seconds after the page load
+  }, 1000);  // Delays hiding by 2 seconds after the page load
 });
 
 
